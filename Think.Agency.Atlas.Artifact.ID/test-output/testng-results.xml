@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57294" started-at="2020-04-01T13:46:22Z" finished-at="2020-04-01T13:47:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57294" started-at="2020-04-01T13:46:22Z" finished-at="2020-04-01T13:47:20Z">
+      <class name="Regression.Test.Suite.PingLinks">
+        <test-method status="PASS" signature="loadFiles()[pri:0, instance:Regression.Test.Suite.PingLinks@3c87521]" name="loadFiles" is-config="true" duration-ms="729" started-at="2020-04-01T09:46:22Z" finished-at="2020-04-01T09:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadFiles -->
+        <test-method status="PASS" signature="launchBrowserr()[pri:0, instance:Regression.Test.Suite.PingLinks@3c87521]" name="launchBrowserr" is-config="true" duration-ms="11692" started-at="2020-04-01T09:46:22Z" finished-at="2020-04-01T09:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserr -->
+        <test-method status="PASS" signature="loadCMSPage()[pri:1, instance:Regression.Test.Suite.PingLinks@3c87521]" name="loadCMSPage" duration-ms="1165" started-at="2020-04-01T09:46:34Z" description="Login into webpage" finished-at="2020-04-01T09:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadCMSPage -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:Regression.Test.Suite.PingLinks@3c87521]" name="takescreenshot" is-config="true" duration-ms="2" started-at="2020-04-01T09:46:35Z" finished-at="2020-04-01T09:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loadCMSPage status=SUCCESS method=PingLinks.loadCMSPage()[pri:1, instance:Regression.Test.Suite.PingLinks@3c87521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="verifyTheConnection()[pri:2, instance:Regression.Test.Suite.PingLinks@3c87521]" name="verifyTheConnection" duration-ms="44258" started-at="2020-04-01T09:46:35Z" description="Verify if all the links on the webpage are working" finished-at="2020-04-01T09:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheConnection -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:Regression.Test.Suite.PingLinks@3c87521]" name="takescreenshot" is-config="true" duration-ms="1" started-at="2020-04-01T09:47:20Z" finished-at="2020-04-01T09:47:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheConnection status=SUCCESS method=PingLinks.verifyTheConnection()[pri:2, instance:Regression.Test.Suite.PingLinks@3c87521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Regression.Test.Suite.PingLinks@3c87521]" name="tearDown" is-config="true" duration-ms="144" started-at="2020-04-01T09:47:20Z" finished-at="2020-04-01T09:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Regression.Test.Suite.PingLinks -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
